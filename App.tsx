@@ -4,7 +4,12 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text style={styles.homeText}>
+      {`
+        here's how to start splendid investment.
+        Let's get started!!!
+      `}
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,8 +18,16 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: 400,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  homeText: {
+    fontSize: 20,
+    color: 'purple',
+    textAlign: 'center',
+  }
 });
+
+//一先ずreactnavigationのやつインストールする。
