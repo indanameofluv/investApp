@@ -7,7 +7,7 @@ export default function App() {
       <Text style={styles.homeText}>
       {`
         here's how to start splendid investment.
-        Let's get started!!!
+        Let's get started!!!wowowow
       `}
       </Text>
       <StatusBar style="auto" />
